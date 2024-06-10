@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Experiences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Experiences</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="active"><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<body>
+<section>
+        <h3>Submit Your Travel Experience</h3>
+        <form action="#" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td><label for="place">Place Name:</label></td>
+            <td><input type="text" id="place" name="place" required></td>
+        </tr>
+        <tr>
+            <td><label for="description">Experience:</label></td>
+            <td><textarea id="description" name="description" required></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="images">Upload Images:</label></td>
+            <td><input type="file" id="images" name="images[]" accept="image/*" multiple></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Submit Experience"></td>
+        </tr>
+    </table>
+</form>
+    </section>
+
+       <footer>
+        <p>&copy; 2024 Travel Experiences. All rights reserved.</p>
+    </footer>
+</body>
+</html>
